@@ -1,0 +1,142 @@
+[
+  {
+    "nombre_producto": "Camiseta Deportiva Hombre",
+    "cantidad_stock": 100,
+    "descripcion": "Camiseta ligera y transpirable para entrenamientos intensos.",
+    "imagen": "remera-deportiva.jpg",
+    "categoria": "Camisetas",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 20.0
+  },
+  {
+    "nombre_producto": "Camiseta Deportiva Mujer",
+    "cantidad_stock": 80,
+    "descripcion": "Camiseta ajustada y cómoda para actividades deportivas.",
+    "imagen": "remera-deportiva1.jpg",
+    "categoria": "Camisetas",
+    "oferta": true,
+    "precio_oferta": 18.0,
+    "precio": 22.0
+  },
+  {
+    "nombre_producto": "Pantalones Cortos Running",
+    "cantidad_stock": 60,
+    "descripcion": "Pantalones cortos con bolsillo para llaves y tejido transpirable.",
+    "imagen": "short-deportivo.jpg",
+    "categoria": "Pantalones",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 25.0
+  },
+  {
+    "nombre_producto": "Leggings Deportivos Mujer",
+    "cantidad_stock": 70,
+    "descripcion": "Leggings elásticos y cómodos, perfectos para yoga y pilates.",
+    "imagen": "calzas.jpg",
+    "categoria": "Pantalones",
+    "oferta": true,
+    "precio_oferta": 30.0,
+    "precio": 35.0
+  },
+  {
+    "nombre_producto": "Chaqueta Deportiva Hombre",
+    "cantidad_stock": 50,
+    "descripcion": "Chaqueta con capucha, ideal para correr en climas fríos.",
+    "imagen": "campera-deportiva.jpg",
+    "categoria": "Chaquetas",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 50.0
+  },
+  {
+    "nombre_producto": "Chaqueta Deportiva Mujer",
+    "cantidad_stock": 45,
+    "descripcion": "Chaqueta ajustada con diseño moderno, ideal para entrenamientos.",
+    "imagen": "sudadera-viento-woman.jpg",
+    "categoria": "Chaquetas",
+    "oferta": true,
+    "precio_oferta": 45.0,
+    "precio": 55.0
+  },
+  {
+    "nombre_producto": "Zapatillas Running Hombre",
+    "cantidad_stock": 30,
+    "descripcion": "Zapatillas ligeras con amortiguación para largas distancias.",
+    "imagen": "zapatillas-running.png",
+    "categoria": "Zapatillas",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 60.0
+  },
+  {
+    "nombre_producto": "Zapatillas Running Mujer",
+    "cantidad_stock": 35,
+    "descripcion": "Zapatillas con diseño ergonómico y suela antideslizante.",
+    "imagen": "zapatillas-running1.jpg",
+    "categoria": "Zapatillas",
+    "oferta": true,
+    "precio_oferta": 55.0,
+    "precio": 65.0
+  },
+  {
+    "nombre_producto": "Gorra Deportiva",
+    "cantidad_stock": 100,
+    "descripcion": "Gorra ajustable y transpirable para protección solar.",
+    "imagen": "gorra1.jpg",
+    "categoria": "Accesorios",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 15.0
+  },
+  {
+    "nombre_producto": "Mochila Deportiva",
+    "cantidad_stock": 40,
+    "descripcion": "Mochila resistente con múltiples compartimentos.",
+    "imagen": "mochila1.jpg",
+    "categoria": "Accesorios",
+    "oferta": true,
+    "precio_oferta": 35.0,
+    "precio": 40.0
+  },
+  {
+    "nombre_producto": "Gorra Deportiva",
+    "cantidad_stock": 100,
+    "descripcion": "Gorra ajustable y transpirable para protección solar.",
+    "imagen": "gorra2.jpg",
+    "categoria": "Accesorios",
+    "oferta": false,
+    "precio_oferta": null,
+    "precio": 15.0
+  },
+  {
+    "nombre_producto": "Mochila Deportiva",
+    "cantidad_stock": 40,
+    "descripcion": "Mochila resistente con múltiples compartimentos.",
+    "imagen": "mochila2.jpg",
+    "categoria": "Accesorios",
+    "oferta": true,
+    "precio_oferta": 35.0,
+    "precio": 40.0
+  },
+  {
+    "nombre_producto": "Zapatilla para niño.",
+    "cantidad_stock": 40,
+    "descripcion": "Zapatilla urbana para niño.",
+    "imagen": "zapatilla-kid1.jpg",
+    "categoria": "Zapatillas",
+    "oferta": true,
+    "precio_oferta": 55.0,
+    "precio": 40.0
+  },
+  {
+    "nombre_producto": "Top deportivo",
+    "cantidad_stock": 40,
+    "descripcion": "Top deportivo para mujer con mangas.",
+    "imagen": "top-deportivo.jpg",
+    "categoria": "camisetas",
+    "oferta": true,
+    "precio_oferta": 25.0,
+    "precio": 40.0
+  }
+]

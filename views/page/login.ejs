@@ -1,0 +1,62 @@
+<%-include('../partials/head')%>
+<body class="login-body">
+    
+
+<div class="contenedor-login">
+    <h1>Bienvenido</h1>
+
+    <div class="b-header">
+        <ul class="tab">
+
+            <li data-form="login " class="active">Iniciar Sesión</li>
+            <li data-form="register">REGÍSTRATE</li>
+
+        </ul>
+    </div>
+
+    <form action="" class="form active" data-form-id="login" method="POST">
+        <input type="text" class="input" placeholder="Usuario">
+        <input type="password" class="input" placeholder="Contraseña">
+
+        <button type="submit" class="btn">CONTINUAR</button>
+
+    </form>
+
+     <form action="" class="form" data-form-id="register" method="POST">
+
+        <input type="text" class="input" placeholder="Nombre y Apellidos">
+        <input type="text" class="input" placeholder="Usuario">
+        <input type="password" class="input" placeholder="Contraseña">
+
+        <button type="submit" class="btn">CREAR CUENTA</button>
+
+    </form>
+
+</div>
+</body>
+
+<%-include('../partials/footer')%>
+
+<script>
+    const tabs=document.querySelectorAll('[data-form]');
+const forms=document.querySelectorAll('[data-form-id]');
+
+
+for (let i = 0; i < tabs.length; i++){
+    tabs[i].addEventListener('click',()=>{
+
+        //removemos la clase active de todos los tabs encotrados
+        tabs.forEach((tab)=>tab.classList.remove('active'));
+
+        //le agregamos la clase active al tab que se le hizo click
+        tabs[i].classList.add('active');
+
+        //mostramos el formulario correspondiente
+        //para los formularios funciona exactamente los mismo
+        forms.forEach((form)=>form.classList.remove('active'));
+        forms[i].classList.add('active');
+
+    })
+}
+
+</script>
